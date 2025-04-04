@@ -69,7 +69,7 @@ a{
     height: 30px;
     width: 90%;
     border:none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
  }
 
@@ -117,6 +117,7 @@ a{
     display: inline;
     margin-right: 15px;
     margin-left: 5px;
+    border: solid 1px transparent;
 }
 
 #menu{
@@ -124,6 +125,9 @@ a{
     margin-left: 20px;
 }
 
+.panel p:hover{
+    border: solid 1px white;
+}
 /* main */
 
 .hack_img{
